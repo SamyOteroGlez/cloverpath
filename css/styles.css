@@ -1,0 +1,11 @@
+body {
+    background-color: #e9ecef;
+}
+
+.center-content {
+    margin-top: 25vh;
+}
+
+.btn-lg {
+    border-radius: 0;
+}
