@@ -7,3 +7,9 @@ services:
             - 7000:80
         volumes:
             - ./:/usr/share/nginx/html
+        networks:
+            - dev-network
+
+networks:
+    dev-network:
+        driver: bridge
